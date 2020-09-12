@@ -124,7 +124,7 @@ lazy val useState =
 lazy val withCssLoading: Project => Project =
   _.settings(
     /* custom webpack file to include css */
-    webpackConfigFile := Some((ThisBuild / baseDirectory).value / "custom.webpack.config.js"),
+    webpackConfigFile := Some((ThisBuild / baseDirectory).value / "webpack" / "custom.webpack.config.js"),
     Compile / npmDevDependencies ++= Seq(
       "webpack-merge" -> "4.2.2",
       "css-loader"    -> "3.4.2",
