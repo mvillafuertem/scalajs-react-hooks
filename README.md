@@ -4,7 +4,7 @@ WITH THE COMMAND `sbt docs/mdoc`
 
 ---
 
-<p align="center"><img width="200" src="https://raw.githubusercontent.com/mvillafuertem/scalajs-react-hooks/reactjs-icon.svg"/></p>
+<p align="center"><img width="200" src="https://raw.githubusercontent.com/mvillafuertem/scalajs-react-hooks/master/reactjs-icon.svg"/></p>
 <h1 align="center">Scala.js React Hooks</h1>
 <p align="center">
   <a href="https://github.com/mvillafuertem/scalajs-react-hooks/actions?query=workflow%3A%22scalaci%22">
