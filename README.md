@@ -11,16 +11,20 @@ WITH THE COMMAND `sbt docs/mdoc`
     <img src="https://github.com/mvillafuertem/scalajs-react-hooks/workflows/scalaci/badge.svg"/>
   </a>
   <a href="https://www.scala-js.org">
-    <img src="https://img.shields.io/badge/scala.js-1.1.1-red.svg?logo=scala&logoColor=red"/>
+    <img src="https://img.shields.io/badge/scala.js-1.3.0-red.svg?logo=scala&logoColor=red"/>
   </a>
   <a href="https://www.oracle.com/technetwork/java/javase/11all-relnotes-5013287.html">
     <img src="https://img.shields.io/badge/jdk-11.0.8-orange.svg?logo=java&logoColor=white"/>
   </a>
   <a href="https://github.com/sbt/sbt/releases">
-    <img src="https://img.shields.io/badge/sbt-1.3.13-blue.svg?logo=sbt"/>
+    <img src="https://img.shields.io/badge/sbt-1.4.1-blue.svg?logo=sbt"/>
+  </a>
+  <a href="https://github.com/scala-steward-org/scala-steward">
+    <img src="https://img.shields.io/badge/Scala_Steward-helping-blue.svg?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAMAAAARSr4IAAAAVFBMVEUAAACHjojlOy5NWlrKzcYRKjGFjIbp293YycuLa3pYY2LSqql4f3pCUFTgSjNodYRmcXUsPD/NTTbjRS+2jomhgnzNc223cGvZS0HaSD0XLjbaSjElhIr+AAAAAXRSTlMAQObYZgAAAHlJREFUCNdNyosOwyAIhWHAQS1Vt7a77/3fcxxdmv0xwmckutAR1nkm4ggbyEcg/wWmlGLDAA3oL50xi6fk5ffZ3E2E3QfZDCcCN2YtbEWZt+Drc6u6rlqv7Uk0LdKqqr5rk2UCRXOk0vmQKGfc94nOJyQjouF9H/wCc9gECEYfONoAAAAASUVORK5CYII="/>
   </a>
 </p>
 
+## Hooks
 
 https://mvillafuertem.github.io/scalajs-react-hooks/hooks/
 
@@ -40,11 +44,12 @@ https://mvillafuertem.github.io/scalajs-react-hooks/useref/
 
 https://mvillafuertem.github.io/scalajs-react-hooks/usestate/
 
-This Poc use:
+## Libraries
 
-https://scalablytyped.org/docs/readme.html
+https://github.com/ScalablyTyped/Converter
 
-https://slinky.dev
+https://github.com/japgolly/scalajs-react
+
+https://github.com/shadaj/slinky
 
 https://github.com/zio/zio
-
