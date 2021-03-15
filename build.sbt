@@ -172,7 +172,7 @@ lazy val baseSettings: Project => Project =
       /* for slinky */
       libraryDependencies ++= Seq("me.shadaj" %%% "slinky-hot" % "0.6.6"),
       libraryDependencies ++= Seq(
-        "dev.zio"                      %%% "zio"             % "1.0.3",
+        "dev.zio"                      %%% "zio"             % "1.0.5",
         "io.github.cquiroz"            %%% "scala-java-time" % "2.0.0",
         "org.scalatest"                %%% "scalatest"       % "3.2.2" % Test,
         "com.softwaremill.sttp.client" %%% "core"            % "2.2.9",
