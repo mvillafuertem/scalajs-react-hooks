@@ -170,7 +170,7 @@ lazy val baseSettings: Project => Project =
       _.withSourceMap(false)
         .withModuleKind(ModuleKind.CommonJSModule)),
       /* for slinky */
-      libraryDependencies ++= Seq("me.shadaj" %%% "slinky-hot" % "0.6.6"),
+      libraryDependencies ++= Seq("me.shadaj" %%% "slinky-hot" % "0.6.7"),
       libraryDependencies ++= Seq(
         "dev.zio"                      %%% "zio"             % "1.0.3",
         "io.github.cquiroz"            %%% "scala-java-time" % "2.0.0",
