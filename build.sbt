@@ -163,7 +163,7 @@ lazy val baseSettings: Project => Project =
   _.enablePlugins(ScalaJSPlugin)
     .settings(
       useYarn := true,
-      scalaVersion := "2.13.3",
+      scalaVersion := "2.13.5",
       scalacOptions ++= ScalacOptions.flags,
       scalaJSUseMainModuleInitializer := true,
       scalaJSLinkerConfig ~= (/* disabled because it somehow triggers many warnings */
