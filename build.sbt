@@ -177,7 +177,7 @@ lazy val baseSettings: Project => Project =
         "org.scalatest"                %%% "scalatest"       % "3.2.9" % Test,
         "com.softwaremill.sttp.client" %%% "core"            % "2.2.9",
         "com.softwaremill.sttp.client" %%% "circe"           % "2.2.9",
-        "io.circe"                     %%% "circe-optics"    % "0.13.0",
+        "io.circe"                     %%% "circe-optics"    % "0.14.1",
         "io.circe"                     %%% "circe-generic"   % "0.14.0"
       ),
       scalacOptions += "-Ymacro-annotations"
