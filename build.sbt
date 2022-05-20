@@ -37,7 +37,7 @@ lazy val useCallback =
     .settings(
       addCommandAlias("useCallback", "project useCallback;fastOptJS::startWebpackDevServer;~fastOptJS"),
       webpackDevServerPort := 8008,
-      stFlavour := Flavour.Slinky
+      stFlavour            := Flavour.Slinky
     )
 
 lazy val useContext =
@@ -48,7 +48,7 @@ lazy val useContext =
     .settings(
       addCommandAlias("useContext", "project useContext;fastOptJS::startWebpackDevServer;~fastOptJS"),
       webpackDevServerPort := 8008,
-      stFlavour := Flavour.Slinky,
+      stFlavour            := Flavour.Slinky,
       Compile / npmDependencies ++= Seq(
         "react-router-dom"        -> "5.1.2",
         "@types/react-router-dom" -> "5.1.2"
@@ -63,7 +63,7 @@ lazy val useEffect =
     .settings(
       addCommandAlias("useEffect", "project useEffect;fastOptJS::startWebpackDevServer;~fastOptJS"),
       webpackDevServerPort := 8008,
-      stFlavour := Flavour.Slinky
+      stFlavour            := Flavour.Slinky
     )
 
 lazy val useLayoutEffect =
@@ -74,7 +74,7 @@ lazy val useLayoutEffect =
     .settings(
       addCommandAlias("useLayoutEffect", "project useLayoutEffect;fastOptJS::startWebpackDevServer;~fastOptJS"),
       webpackDevServerPort := 8008,
-      stFlavour := Flavour.Slinky
+      stFlavour            := Flavour.Slinky
     )
 
 lazy val useMemo =
@@ -85,7 +85,7 @@ lazy val useMemo =
     .settings(
       addCommandAlias("useMemo", "project useMemo;fastOptJS::startWebpackDevServer;~fastOptJS"),
       webpackDevServerPort := 8008,
-      stFlavour := Flavour.Slinky
+      stFlavour            := Flavour.Slinky
     )
 
 lazy val useReducer =
@@ -96,7 +96,7 @@ lazy val useReducer =
     .settings(
       addCommandAlias("useReducer", "project useReducer;fastOptJS::startWebpackDevServer;~fastOptJS"),
       webpackDevServerPort := 8008,
-      stFlavour := Flavour.Slinky
+      stFlavour            := Flavour.Slinky
     )
 
 lazy val useRef =
@@ -107,7 +107,7 @@ lazy val useRef =
     .settings(
       addCommandAlias("useRef", "project useRef;fastOptJS::startWebpackDevServer;~fastOptJS"),
       webpackDevServerPort := 8008,
-      stFlavour := Flavour.Slinky
+      stFlavour            := Flavour.Slinky
     )
 
 lazy val useState =
@@ -118,7 +118,7 @@ lazy val useState =
     .settings(
       addCommandAlias("useState", "project useState;fastOptJS::startWebpackDevServer;~fastOptJS"),
       webpackDevServerPort := 8008,
-      stFlavour := Flavour.Slinky
+      stFlavour            := Flavour.Slinky
     )
 
 lazy val withCssLoading: Project => Project =
@@ -162,7 +162,7 @@ lazy val dist = TaskKey[File]("dist")
 lazy val baseSettings: Project => Project =
   _.enablePlugins(ScalaJSPlugin)
     .settings(
-      useYarn := true,
+      useYarn      := true,
       scalaVersion := "2.13.5",
       scalacOptions ++= ScalacOptions.flags,
       scalaJSUseMainModuleInitializer := true,
@@ -178,7 +178,7 @@ lazy val baseSettings: Project => Project =
         "com.softwaremill.sttp.client" %%% "core"            % "2.2.9",
         "com.softwaremill.sttp.client" %%% "circe"           % "2.2.9",
         "io.circe"                     %%% "circe-optics"    % "0.13.0",
-        "io.circe"                     %%% "circe-generic"   % "0.14.0"
+        "io.circe"                     %%% "circe-generic"   % "0.14.2"
       ),
       scalacOptions += "-Ymacro-annotations"
     )
